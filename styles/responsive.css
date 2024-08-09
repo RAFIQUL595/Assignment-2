@@ -40,6 +40,7 @@
   }
   .banner-img {
     width: 100%;
+    overflow: hidden;
   }
   .banner-img img {
     margin-left: 0px;
@@ -53,5 +54,19 @@
     right: 5px;
   }
   /* Banner Container Responsive End Here */
+
+    /* Habits-Section Responsive Start Here */
+    .habits-description h2 {
+      font-size: 2rem;
+      margin-top: 100px;
+    }
+    .habits-group {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .habits-group-1 img {
+      margin-top: 40px;
+    }
+    /* Habits-Section Responsive End Here */
 }
 /* Small Device Responsive End Here */
+
