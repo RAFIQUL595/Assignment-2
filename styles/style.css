@@ -34,6 +34,14 @@ body {
 .white-color {
   color: #fff;
 }
+.btn {
+  background: #e6533c;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 40px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
 /* Sharing Style End Here */
 
 /* Nav-Container Style Start Here */
@@ -52,10 +60,12 @@ body {
   border: 2px solid rgba(102, 102, 102, 0.623);
   width: 460px;
   height: 46px;
-  justify-content: space-around;
+  gap: 48px;
   align-items: center;
   border-radius: 40px;
   font-size: 1.25rem;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .nav-container li {
   list-style: none;
@@ -69,3 +79,112 @@ body {
   display: none;
 }
 /* Nav-Container Style End Here */
+
+/* Banner Container Style Start Here */
+.banner-container {
+  width: 1060px;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
+}
+.banner-contain {
+  width: 520px;
+  height: 280px;
+}
+.banner-contain h2 {
+  font-size: 5rem;
+}
+.banner-contain p {
+  opacity: 0.4;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+#miama-fonts {
+  font-family: "Miama", sans-serif;
+  font-size: 10rem;
+  line-height: 0;
+  font-weight: 400;
+}
+#secend-btn {
+  background: #000;
+  border: 2px solid white;
+  padding: 16px 40px;
+  border-radius: 40px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.banner-button{
+  width: 500px;
+  gap: 15px;
+}
+.banner-img {
+  position: relative;
+  width: 349px;
+  height: 580px;
+}
+.banner-img img {
+  width: 100%;
+  margin-left: 90px;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 75px;
+  left: 2px;
+  padding: 20px 20px 20px 55px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.418);
+}
+.bottom-left h6 {
+  color: #fafaf9;
+  font-size: 1.5rem;
+}
+.bottom-left p {
+  color: #fafaf9;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+.play-button {
+  position: absolute;
+  bottom: 24px;
+  left: 7px;
+  display: grid;
+  place-items: center;
+  font-size: 80px;
+  color: #fafaf9;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background: #e6533c;
+  color: pointer;
+}
+.play-button::before {
+  content: "";
+  display: inline-block;
+  border-left: 10px solid;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.top-right {
+  position: absolute;
+  top: 132px;
+  right: -153px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.192);
+}
+.top-right h6 {
+  color: #ffffff;
+  font-size: 2.1rem;
+}
+.top-right p {
+  color: #fafaf9;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+/* Banner Container Style End Here */
