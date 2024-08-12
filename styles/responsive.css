@@ -1,0 +1,28 @@
+/* Small Device Responsive Start Here */
+@media screen and (max-width: 576px) {
+  /* Nav Container Responsive Start Here */
+  .nav-container .brand-name {
+    margin-left: 15px;
+  }
+  .nav-list {
+    display: none;
+  }
+  .ham-burger {
+    display: block;
+    font-size: 2rem;
+    margin-right: 15px;
+  }
+  /* Nav Container Responsive End Here */
+}
+
+/* Medium Device Responsive Start Here */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    /* Nav Container Responsive Start Here */
+    .nav-container {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    /* Nav Container Responsive End Here */
+  }
+  /* Medium Device Responsive End Here */
+  
