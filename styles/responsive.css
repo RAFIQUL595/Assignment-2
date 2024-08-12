@@ -54,6 +54,19 @@
     right: 0px;
   }
   /* Banner Container Responsive End Here */
+
+  /* Habits Container Responsive Start Here */
+  .habits-description h2 {
+    font-size: 2rem;
+    margin-top: 100px;
+  }
+  .habits-group {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .habits-group-1 img {
+    margin-top: 40px;
+  }
+  /* Habits Container Responsive End Here */
 }
 
 /* Medium Device Responsive Start Here */
@@ -83,5 +96,18 @@
     right: -23px;
   }
   /* Banner Container Responsive End Here */
+
+  /* Habits Container Responsive Start Here */
+  .habits-container {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .habits-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .habits-group-1{
+    margin-top: 30px;
+  }
+  /* Habits Container Responsive End Here */
 }
 /* Medium Device Responsive End Here */
