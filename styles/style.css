@@ -72,3 +72,111 @@ body {
   display: none;
 }
 /* Nav-Container Style End Here */
+
+/* Banner Container Style Start Here */
+.banner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  align-items: center;
+}
+.banner-contain {
+  width: 50%;
+}
+.banner-contain h2 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.miama-fonts {
+  font-family: "Miama", sans-serif;
+  font-size: 8rem;
+  line-height: 0;
+  font-weight: 400;
+}
+.banner-contain p {
+  margin-top: 25px;
+  font-size: 1rem;
+  opacity: 0.4;
+}
+.banner-button {
+  margin-top: 25px;
+  width: 500px;
+}
+.secend-btn {
+  background-color: black;
+  border: 1px solid white;
+  padding: 16px 40px;
+  border-radius: 40px;
+  font-size: 1.25rem;
+  font-weight: 100;
+  margin-left: 15px;
+}
+.banner-images {
+  width: 50%;
+  justify-content: flex-end;
+  position: relative;
+}
+.banner-images img {
+  height: auto;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 75px;
+  left: 158px;
+  padding: 20px 20px 20px 55px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.418);
+}
+.bottom-left h6 {
+  color: #fafaf9;
+  font-size: 1.5rem;
+}
+.bottom-left p {
+  color: #fafaf9;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+.play-button {
+  position: absolute;
+  bottom: 24px;
+  left: 7px;
+  display: grid;
+  place-items: center;
+  font-size: 80px;
+  color: #fafaf9;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  background: #e6533c;
+  color: pointer;
+}
+.play-button::before {
+  content: "";
+  display: inline-block;
+  border-left: 10px solid;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.top-right {
+  position: absolute;
+  top: 127px;
+  right: -64px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.192);
+}
+.top-right h6 {
+  color: #ffffff;
+  font-size: 2.1rem;
+}
+.top-right p {
+  color: #fafaf9;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+/* Banner Container Style End Here */
