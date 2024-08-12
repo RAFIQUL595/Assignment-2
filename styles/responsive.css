@@ -56,6 +56,10 @@
   /* Banner Container Responsive End Here */
 
   /* Habits Container Responsive Start Here */
+  .habits-container {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
   .habits-description h2 {
     font-size: 2rem;
     margin-top: 100px;
@@ -67,6 +71,29 @@
     margin-top: 40px;
   }
   /* Habits Container Responsive End Here */
+
+  /* Run Container Responsive Start Here */
+  .run-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .run-contain {
+    width: 90%;
+  }
+  .run-button {
+    text-align: center;
+  }
+  .run-button .btn {
+    width: 100%;
+  }
+  .run-img {
+    margin-top: 30px;
+  }
+  .run-img {
+    width: 85%;
+    height: fit-content;
+  }
+  /* Run Container Responsive End Here */
 }
 
 /* Medium Device Responsive Start Here */
@@ -95,6 +122,9 @@
     top: 55px;
     right: -23px;
   }
+  .banner-contain p {
+    width: 75%;
+  }
   /* Banner Container Responsive End Here */
 
   /* Habits Container Responsive Start Here */
@@ -105,9 +135,26 @@
   .habits-group {
     grid-template-columns: repeat(2, 1fr);
   }
-  .habits-group-1{
+  .habits-group-1 {
     margin-top: 30px;
   }
   /* Habits Container Responsive End Here */
+
+  /* Run Container Responsive Start Here */
+  .run-container {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .run-button .btn {
+    width: 80%;
+  }
+  .run-img {
+    margin-top: 30px;
+  }
+  .run-img {
+    width: 50%;
+    height: fit-content;
+  }
+  /* Run Container Responsive End Here */
 }
 /* Medium Device Responsive End Here */
