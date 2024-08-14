@@ -145,7 +145,27 @@
     width: 200px;
   }
   /* Bmi Container Responsive End Here */
+
+  /* Team Container Responsive Start Here */
+  .team-container {
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .team-contain {
+    width: 100%;
+    text-align: center;
+  }
+  .team-group {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .team-list .team-1 img {
+    height: 100%;
+  }
+  /* Team Container Responsive End Here */
 }
+/* Small Device Responsive End Here */
 
 /* Medium Device Responsive Start Here */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -224,8 +244,8 @@
     width: 40%;
   }
   .bmi-group {
-   width: 98%;
-   left: 111px;
+    width: 98%;
+    left: 111px;
   }
   .down-arrow {
     right: 268px;
@@ -239,5 +259,20 @@
     right: 162px;
   }
   /* Bmi Container Responsive End Here */
+
+  /* Team Container Responsive Start Here */
+  .team-container {
+    width: 95%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .team-contain {
+    width: 100%;
+    text-align: center;
+  }
+  .team-list .team-1 img {
+    width: 100px;
+  }
+  /* Team Container Responsive End Here */
 }
 /* Medium Device Responsive End Here */
