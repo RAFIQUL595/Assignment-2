@@ -62,7 +62,6 @@
   }
   .habits-description h2 {
     font-size: 2rem;
-    margin-top: 100px;
   }
   .habits-group {
     grid-template-columns: repeat(1, 1fr);
@@ -87,13 +86,65 @@
     width: 100%;
   }
   .run-img {
+    width: 340px;
+    height: 158px;
+    border-radius: 20px;
     margin-top: 30px;
   }
-  .run-img {
-    width: 85%;
-    height: fit-content;
+  .run-img img {
+    object-fit: cover;
+    object-position: top;
   }
   /* Run Container Responsive End Here */
+
+  /* Bmi Container Responsive Start Here */
+  .bmi-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .bmi-contain h2 {
+    font-size: 2rem;
+  }
+  .bmi-contain p {
+    font-size: 0.9rem;
+  }
+  .bmi-chart {
+    width: 100%;
+  }
+  .bmi-chart h2 {
+    font-size: 1rem;
+  }
+  .bmi-chart-group {
+    flex-direction: column;
+  }
+  .bmi-calculator {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .bmi-calculator h2 {
+    font-size: 1rem;
+  }
+  .bmi-calculator input {
+    width: 49%;
+  }
+  .down-arrow {
+    right: 22px;
+  }
+  .bmi-select {
+    width: 49%;
+    left: 198px;
+  }
+  .bmi-select-1 {
+    width: 99%;
+  }
+  .down-arrow-1 {
+    right: 20px;
+  }
+  .btn {
+    width: 200px;
+  }
+  /* Bmi Container Responsive End Here */
 }
 
 /* Medium Device Responsive Start Here */
@@ -149,12 +200,44 @@
     width: 80%;
   }
   .run-img {
-    margin-top: 30px;
+    height: 475px;
   }
-  .run-img {
-    width: 50%;
-    height: fit-content;
+  .run-img img {
+    object-position: 67% 27%;
   }
   /* Run Container Responsive End Here */
+
+  /* Bmi Container Responsive Start Here */
+  .bmi-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .bmi-chart-group {
+    flex-direction: column;
+  }
+  .bmi-calculator {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .bmi-calculator input {
+    width: 40%;
+  }
+  .bmi-group {
+   width: 98%;
+   left: 111px;
+  }
+  .down-arrow {
+    right: 268px;
+  }
+  .bmi-select {
+    width: 40%;
+    top: -45px;
+    left: 194px;
+  }
+  .down-arrow-1 {
+    right: 162px;
+  }
+  /* Bmi Container Responsive End Here */
 }
 /* Medium Device Responsive End Here */
