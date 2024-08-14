@@ -164,6 +164,27 @@
     height: 100%;
   }
   /* Team Container Responsive End Here */
+
+  /* Footer Container Responsive Start Here */
+  .footer-container {
+    width: 95%;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-direction: column;
+  }
+  .footer-contain {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
+  }
+  .footer-group{
+    margin-left: 0;
+    width: 50%;
+  }
+  hr{
+    width: 95%;
+  }
+  /* Footer Container Responsive End Here */
 }
 /* Small Device Responsive End Here */
 

@@ -51,6 +51,8 @@ body {
 }
 .nav-container .brand-name {
   font-size: 2.5rem;
+  font-weight: 900;
+  font-style: italic;
 }
 .nav-list {
   border: 2px solid rgba(139, 135, 135, 0.37);
@@ -426,3 +428,51 @@ body {
   opacity: 0.4;
 }
 /* Team Container Style End Here */
+
+/* Footer Container Style Start Here */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.footer-contain {
+  width: 50%;
+  height: 200px;
+}
+.footer-contain h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.footer-contain p {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.4;
+}
+.footer-group{
+  margin-left: 100px;
+  width: 25%;
+}
+.footer-group h3{
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.footer-group p{
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.4;
+  margin-bottom: 20px;
+}
+hr{
+  opacity: 0.2;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-font{
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0.4;
+}
+/* Footer Container Style End Here */
