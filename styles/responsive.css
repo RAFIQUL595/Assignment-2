@@ -165,6 +165,13 @@
   }
   /* Team Container Responsive End Here */
 
+  /* Challenging Container Responsive Start Here */
+  .challenging-service {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  /* Challenging Container Responsive End Here */
+
   /* Footer Container Responsive Start Here */
   .footer-container {
     width: 95%;
@@ -177,11 +184,11 @@
     height: fit-content;
     margin-bottom: 30px;
   }
-  .footer-group{
+  .footer-group {
     margin-left: 0;
     width: 50%;
   }
-  hr{
+  hr {
     width: 95%;
   }
   /* Footer Container Responsive End Here */
@@ -295,5 +302,12 @@
     width: 100px;
   }
   /* Team Container Responsive End Here */
+
+  /* Challenging Container Responsive Start Here */
+  .challenging-service {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  /* Challenging Container Responsive End Here */
 }
 /* Medium Device Responsive End Here */
